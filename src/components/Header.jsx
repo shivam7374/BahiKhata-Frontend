@@ -18,6 +18,7 @@ import {
    logo: {
       flexGrow: "1",
       cursor: "pointer",
+      color:"white"
     },
     link: {
       textDecoration: "none",
@@ -55,7 +56,7 @@ function Header() {
         <Toolbar>
             
           <Typography variant="h4" className={classes.logo}>
-          बही-खाता
+          <Link to="/" className={classes.logo}>बही-खाता</Link>
           </Typography>
             
           
@@ -65,7 +66,7 @@ function Header() {
                         <Link to="/users" className={classes.link}>
                             <p>Users</p>
                         </Link>
-                        <Link to="/" className={classes.link}>
+                        <Link to="/transactions/create" className={classes.link}>
                             <p>Create-Transaction</p>
                         </Link>
 
