@@ -1,0 +1,77 @@
+.form-wrapper {
+    background-color: var(--primary-color);
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    border-radius: 4rem;
+    /* height: 100%; */
+
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9fafca;
+
+}
+.form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 0 auto;
+    color: #9fafca;
+}
+
+.form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.form-input {
+    width: 100%;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: "Quicksand";
+    font-weight: 600;
+}
+
+.form-label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-select {
+    width: 100%;
+    padding: 1rem 0.4rem;
+    font-family: "Helvetica";
+    font-weight: 600;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+}
+
+.form-option {
+    font-weight: 500;
+
+}
+
+.btns-container{
+    width: 100%;
+    justify-content: space-between;
+}
+.btn-lg{
+    width: 50%;
+}
