@@ -3,7 +3,8 @@
 ## To setup frontend
 
 1. Clone the BhaiKhata Frontend repository
-2. Run the command python manage.py runserver to run the frontend on the server.
+2. Run the command **npm install** to install all the required dependencies.
+3. Run the command **npm start** to start the frontend on the server.
 
 ## Technologies Used
 
