@@ -1,10 +1,15 @@
-# BhaiKhata Backend
+# BhaiKhata Frontend
 
 ## To setup frontend
 
 1. Clone the BhaiKhata Frontend repository
-2. Run the command **npm install** to install all the required dependencies.
-3. Run the command **npm start** to start the frontend on the server.
+2. Make .env file and set REACT_APP_BACKEND_URL=http://localhost:8000
+3. Run the command **npm install** to install all the required dependencies.
+4. Run the command **npm start** to start the frontend on the server.
+
+### [Link](https://github.com/shivam7374/BahiKhata-Backend) to BhaiKhata Backend
+
+### [Link](https://docs.google.com/document/d/1iu6_CggWeDP6K82gglrFUcfRqFFB63vZptDkORlj7BE/edit?usp=sharing) to google doc
 
 ## Technologies Used
 
